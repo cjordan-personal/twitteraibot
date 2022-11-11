@@ -12,7 +12,7 @@ def construct_basis(bot_handle, participant_handle, conversation_thread, use_see
     seed_thread = ""
     if use_seed_thread:
         seed_thread = re.sub(r"XXREPLACESENDERHANDLEXX", participant_handle, settings.bot["seed"])
-        seed_thread = re.sub(r"XXREPLACEBOTHANDLEXX", participant_handle, seed_thread)
+        seed_thread = re.sub(r"XXREPLACEBOTHANDLEXX", bot_handle, seed_thread)
     return(overview + "\n" + seed_thread.rstrip() + "\n" + conversation_thread.rstrip() + "\n" + bot_handle + ": ")
 
 def gpt_completion(texts):
