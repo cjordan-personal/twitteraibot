@@ -5,7 +5,7 @@ Twitter bot that will respond to mentions, reply to threads using OpenAI's GPT-3
 The example case given is [@BallparkExplore](https://twitter.com/BallparkExplore/with_replies) - a travel blogger that visits Major League Baseball parks (and surrounding cities) to take in the local culture, providing commentary and suggestions.
 ## Service Configuration
 - Twitter:
-  - From a valid Twitter account, sign up for a Developer account - ensuring a valid email is linked to the account.  (Note that only an Essential tier account is required, as this application using the Twitter v2 API).
+  - From a valid Twitter account, sign up for a Developer account - ensuring an email is linked to said account.  (Note that only Essential tier is required, as this application uses the Twitter v2 API).
   - Make note of the:
     - **API (Consumer) Key**
     - **API (Consumer) Secret**
